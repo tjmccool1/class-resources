@@ -1,0 +1,42 @@
+================================= MAC TIPS / SHORTCUTS
+
+cmd + c    (Copy)
+cmd + v    (Paste)
+cmd + x    (Cut)
+cmd + z    (Undo)
+cmd        (Redo)
+ + shift
+ + z
+cmd + s    (Save)
+cmd + q    (Close application)
+cmd + w    (Close window)
+cmd + t    (New window - doesn't work in IntelliJ)
+cmd + f    (Search for a keyword)
+cmd + r    (Refresh the browser)
+cmd        (Hard refresh browser, clearing cache)
+ + shift
+ + r
+
+cmd + tab      (Cycle between applications)
+cmd + `	       (Cycle between windows of the same application
+cmd + space    (Spotlight search)
+shift + arrows (Highlight text)
+cmd + arrows   (Move cursor to the end of a line/beginning of a line)
+opt + arrows   (Move from one word to the next)
+
+4 fingers      (View all windows)
+ + up
+
+2 fingers      (Scroll)
+ + up/down
+
+Recommend turning on 3-finger-drag 
+(under Trackpad Options in the Mouse & Trackpad tab of Accessibility settings)
+
+
+Consider BetterSnapTool for quickly resizing windows 
+and assigning keyboard shortcuts for positioning windows
+
+Increase your keyboard fire rate (very useful for quickly deleteting)
+    https://coderwall.com/p/jzuuzg/osx-set-fast-keyboard-repeat-rate
+
