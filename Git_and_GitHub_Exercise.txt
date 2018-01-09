@@ -1,0 +1,42 @@
+================================= GIT EXERCISE
+
+YELLOW CUP!
+
+In terminal:
+
+ 1) Create a folder on your desktop called "class-resources" and open with IntelliJ
+ 2) Initialize a Git repo in your resources folder
+ 3) Create a text file called notes.txt
+ 4) Add the file to staging
+ 5) Remove the file from staging
+ 6) Add and commit notes.txt with the message "Added notes.txt file"
+ 7) From inside resources folder, use the terminal to create a .gitignore file.
+ 8) Create a folder called secretFiles inside resources folder
+ 9) Type secretFiles/* inside your .gitignore file with IntelliJ and save
+10) Create a new file without IntelliJ using the touch command called secret.txt
+11) Run git status
+12) Move the secret.txt file to the secretFiles folder
+13) Create a file with IntelliJ called test.txt in the resources folder
+14) Create another file called test2.txt in the resources folder
+15) Add both files at once to staging with git add .
+16) Commit files
+17) Check your git log (use q to exit this screen, when needed)
+18) Copy the hash for any commit
+19) Use git show insertHashHere to view the changes from that commit
+
+In GitHub:
+    1) Create a repository on GitHub called "class-resources"
+    2) Copy commands for pushing existing repo to your clipboard
+
+In terminal:
+    1) Paste commands and run to push your commits up to this repository
+
+In GitHub:
+    1) Verify you have pushed up 
+
+If time permits:
+
+    Copy over class notes from Teddy Slack channel 
+    into this folder and add, commit, push from command line
+
+GREEN CUP

@@ -1,0 +1,28 @@
+================================= TERMINAL EXERCISE
+
+YELLOW CUP!
+
+The following steps are to be done from the terminal or 
+the built in terminal in Intellij (open/close with fn + option + F12)
+
+ 1) Navigate to your desktop
+ 2) Navigate to your root (/) directory
+ 3) Move to your home (~) directory
+ 4) Navigate to ~/desktop
+ 5) Create a directory called cli-test
+ 6) Create a file called test.txt inside of cli-test
+ 7) Delete the file
+ 8) Create a directory called sub-test
+ 9) Navigate inside of sub-test
+10) Create a new file called hello.txt
+11) Move the file outside of sub-test, directly inside cli-test
+12) Confirm the file was moved to the correct place
+13) Rename hello.txt to hi.txt
+14) Open the file with textEdit and add some text, save and close
+15) View the contents of the file from the terminal
+16) Create a file called .hidden inside cli-test
+17) Try to view the file with ls
+18) View the file with ls -a
+19) Navigate to your desktop and delete the cli-test folder
+
+GREEN CUP!
