@@ -1,0 +1,12 @@
+================================= FREE FRONT END DEVELOPMENT RESOURCES
+
+    Google - the best resource
+    w3schools.com - very helpful quick reference
+    Mozilla Developer Network (MDN) - deeper technical reference than w3schools
+    Stackoverflow - forum for programming questions
+    Codecademy - many tutorials with exercises to debug
+
+    For residents of Bexar county...
+
+        Lynda - free learning resource through Bibliotech Bexar County
+        Treehouse.com - free learning resource through Bibliotech Bexar County
