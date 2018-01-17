@@ -1,0 +1,91 @@
+GIT BRANCHING
+
+Everything we have done is on the "master branch" in Git
+
+New best practice work flow...don't commit in the local master branch; always add and commit in another branch!
+
+   --> FIRST STEP
+   Create and switch to a new branch in your Git local repo
+   (suggested branch name: yourName-exerciseOrFeature)...
+   Command: git checkout -b "justin-box-model"
+
+   --> SECOND STEP
+   Add and commit changes as you normally would...
+   Command: git add someFile, git commit someFile, etc.
+
+   --> THIRD STEP
+   Merge local branch with the local master branch...
+   Commands:
+       1) git checkout master
+       2) git merge whateverBranchName
+
+       OR
+
+   Discard work from branch and DON'T merge with the local master branch...
+   Commands:
+       1) git checkout master
+           optionally...
+       2) git branch -D whateverBranchName (deletes the branch and all the work you committed!)
+
+   --> FOURTH STEP
+   Push up changes from local master branch to remote repository (GitHub repo)...
+   Command: git push origin master
+
+To list all created branches...
+Command: git branch
+
+
+================================= GIT BRANCHING EXERCISE
+
+0. Skim / read through the curriculum appendix section on Git branching
+
+1. Create a branch of your name:
+    git checkout -b firstname-lastname
+
+2. In this branch, use the following command to create a new file: 
+    touch branch-test.txt
+
+3. Add and commit the change:
+    git add . (or git add branch-test.txt)
+    git commit -m "Add branch-test.txt"
+
+4. Check your list of branches:
+    git branch
+
+5. Checkout to master:
+    git checkout master
+
+6. Merge the changes from your branch
+    git merge firstname-lastname
+
+
+
+    ================================= RESOLVING MERGE CONFLICT
+
+0. Make sure you have added and committed any previous changes and merged them into master
+
+1. In your master branch, create a file called merge-test.txt
+
+2. Create and checkout to a branch called conflict-test 
+
+3. Type a line in merge-test.txt that says 'Branch change'
+
+4. Add and commit this change in the conflict-test branch
+
+5. Checkout to the master branch and change the file to say 'Master change'
+
+6. Add and commit in the master branch
+
+7. Attempt to merge the conflict-test branch into master (this will cause a merge conflict)
+
+8. Run a git status and use the command suggested to abort the merge
+
+9. Notice that the conflict is avoided but no changes were able to be merged
+
+10. Repeat steps 0 through 7, changing whats typed in the text file slightly
+
+11. Open the file and select which version you prefer (choose the branch version)
+
+12. Save and close the merge-test.txt then add and commit the changes in the master branch
+
+13. Congratulations! You have resolved a merge conflict!
