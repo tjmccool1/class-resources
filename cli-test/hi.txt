@@ -1,0 +1,65 @@
+Here is some text for this exercise
+
+Thomass-MacBook-Pro:myPlayground TMcCool$ ls
+Thomass-MacBook-Pro:~ TMcCool$ cd desktop
+Thomass-MacBook-Pro:desktop TMcCool$ ls
+$RECYCLE.BIN                                                            Scan Nov 8, 2017 at 14.17.pdf
+30-Day-Jump-Rope-Fitness-Challenge-Workouts-V2.pdf                      ScreenShots
+A Short Walk in the Wakhan Corridor | Outside Online.pdf                The 30-minute guide to rocking your next coding interview.webloc
+Codeup                                                                  The Rise of the Winter Dragons Half-Marathon |.webarchive
+Disabled Parking.pdf                                                    Thumbs.db
+Easy Healthy Dinner Recipes And Ideas Under 400 Calories - Food.com.pdf VA-Codeup Docs
+GetOutside.txt                                                          VABenefitsVerification.pdf
+IP List.txt                                                             Xcode_Projects
+Mac keyboard shortcuts - Apple Support.pdf                              benefits-booklet.pdf
+Thomass-MacBook-Pro:desktop TMcCool$ pwd
+/Users/TMcCool/desktop
+Thomass-MacBook-Pro:desktop TMcCool$ cd ./.
+Thomass-MacBook-Pro:desktop TMcCool$ pwd
+/Users/TMcCool/desktop
+Thomass-MacBook-Pro:desktop TMcCool$ cd ..
+Thomass-MacBook-Pro:~ TMcCool$ pwd
+/Users/TMcCool
+Thomass-MacBook-Pro:~ TMcCool$ cd ..
+Thomass-MacBook-Pro:Users TMcCool$ pwd
+/Users
+Thomass-MacBook-Pro:Users TMcCool$ cd ..
+Thomass-MacBook-Pro:/ TMcCool$ cd ~
+Thomass-MacBook-Pro:~ TMcCool$ pwd
+/Users/TMcCool
+Thomass-MacBook-Pro:~ TMcCool$ cd desktop
+Thomass-MacBook-Pro:desktop TMcCool$ pwd
+/Users/TMcCool/desktop
+Thomass-MacBook-Pro:desktop TMcCool$ mkdir cli-test
+Thomass-MacBook-Pro:desktop TMcCool$ touch cli-test/test.txt
+Thomass-MacBook-Pro:desktop TMcCool$ rm cli-test/test.txt
+Thomass-MacBook-Pro:desktop TMcCool$ mkdir sub-test
+Thomass-MacBook-Pro:desktop TMcCool$ cd sub-test
+Thomass-MacBook-Pro:sub-test TMcCool$ touch hello.txt
+Thomass-MacBook-Pro:sub-test TMcCool$ mv hello.tx ../cli-test
+mv: rename hello.tx to ../cli-test/hello.tx: No such file or directory
+Thomass-MacBook-Pro:sub-test TMcCool$ ls
+hello.txt
+Thomass-MacBook-Pro:sub-test TMcCool$ mv hello.txt /sub-test
+mv: rename hello.txt to /sub-test: Permission denied
+Thomass-MacBook-Pro:sub-test TMcCool$ mv hello.txt ../sub-test
+mv: hello.txt and ../sub-test/hello.txt are identical
+Thomass-MacBook-Pro:sub-test TMcCool$ mv hello.txt ../sub-test/
+mv: hello.txt and ../sub-test/hello.txt are identical
+Thomass-MacBook-Pro:sub-test TMcCool$ mv hello.txt ../cli-test/
+Thomass-MacBook-Pro:sub-test TMcCool$ cd ../cli-test
+Thomass-MacBook-Pro:cli-test TMcCool$ ls
+hello.txt
+Thomass-MacBook-Pro:cli-test TMcCool$ mv hello.txt hi.txt
+Thomass-MacBook-Pro:cli-test TMcCool$ ls
+hi.txt
+Thomass-MacBook-Pro:cli-test TMcCool$ -a "TextEdit" hi.txt
+bash: -a: command not found
+Thomass-MacBook-Pro:cli-test TMcCool$ open -a "TextEdit" hi.txt
+Thomass-MacBook-Pro:cli-test TMcCool$ cat hi.txt
+Here is some text for this exerciseThomass-MacBook-Pro:cli-test TMcCool$ touch .hidden
+Thomass-MacBook-Pro:cli-test TMcCool$ ls
+hi.txt
+Thomass-MacBook-Pro:cli-test TMcCool$ ls -a
+.       ..      .hidden hi.txt
+Thomass-MacBook-Pro:cli-test TMcCool$ 

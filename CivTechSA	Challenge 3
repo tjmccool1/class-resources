@@ -1,0 +1,66 @@
+CivTechSA	Challenge 3
+
+Department: 
+	Center City Development and Operations (CCDO)
+
+Project Name: 
+	One pass transportation program for downtown
+
+Description: 	
+	The Center City Development and Operations Department facilitates and initiates the development and redevelopment of neighborhoods, businesses and cultural resources within the Greater Downtown Area – an area that is well positioned for residential growth and for mixed-use development. San Antonio is currently experiencing a large amount of economic growth in its downtown area. San Antonio is projected to have more than 7,500 housing units in the downtown area by 2020 and has the top 2 most visited attractions in Texas: the River Walk and the Alamo. Three of the more popular modes of transportation include: Bcycle (SA Bike Share), VIA Metropolitan Transit and the River Barges (Go Rio San Antonio River Cruises shuttle/taxi service). Currently, all three transportation modes operate independently from each other, requiring an individual to purchase separate tickets or passes. CCDO has partnered with these entities to develop a solution so residents, locals and tourists can have a single pass that allows use of all three options for one fee.
+
+Technology Need:
+	 CCDO seeks a solution that will provide residents and visitors a single pass that allows use of all three options for one fee.
+
+Rio Taxi Ticket prices	http://riverwalkguide.com/river-boat-taxi/
+Rates are as follows:
+Tickets are available on the Rio Taxi boat.
+
+Downtown Reach (Up to Lexington Street)
+Rio Taxi Yellow One Way: $5.00
+Rio Taxi Yellow 24-Hour Day Pass*: $10.00
+Rio Taxi Yellow Three Day Pass*: $25.00
+
+Museum Reach (North of Lexington)
+Rio Taxi Red 24-Hour Day Pass*: $10.00
+Rio Taxi Red Three Day Pass*:$25.00
+
+Downtown and Museum Reach
+Combination Red/Yellow 24 Hour Pass*: $15.00
+
+*Unlimited Rides
+
+All prices are tax inclusive.
+
+
+VIA Bus	http://www.viainfo.net/rates/
+Fares-------------------Full	Reduced
+Regular Bus				$1.30	$0.65
+Express Bus Service		$2.60	$1.30
+Transfers				$0.15	$0.07
+VIAtrans Service		$2.00	--
+VIAtrans Child			$0.90	--
+Park & Ride Service		$2.50	$1.25
+Vanpool Service		See pricing schedule
+
+B Cycle https://sanantonio.bcycle.com/how-to-b/rates 
+Membership Options
+24-Hour Day Pass 		$12
+Monthly Membership*^ 	$18  + $5 one-time charge for B-card (optional)
+Annual Membership*^		$100
+
+Usage Fees
+1st 60 minutes of each bike checkout	$0
+Each additional 30 minutes				$2
+Max Usage fees per calendar day			$35
+
+Usage fees apply to All membership levels. 
+Avoid usage fees by keeping each bike checkout to 60 minutes or less.
+
+Monthly and Annual Membership Options are only available online.
+Students/Seniors/Military must contact San Antonio Bcycle for current promotional code at info@sanantoniobikeshare.org.
+
+
+
+idea one example
+https://medium.freecodecamp.org/how-we-recreated-amazon-go-in-36-hours-e32a4101d5f0
