@@ -1,0 +1,19 @@
+Optional bonuses in increasing difficulty...
+
+	Duplicate the following:
+
+		The Texas Flag
+
+			- use 100% pure CSS to make star (Google for existing solutions, but 
+			please include url in a comment above code used)
+
+			- flag should extend full dimensions of viewable full-sized Mac screen
+
+		The entire page for gettinggit.com
+
+		The FB home page
+
+		The BBC 404 page image from Slack channel (including navbar)
+
+For an extra challenge, avoid looking at these pages with an inspector
+tool as you duplicate them.

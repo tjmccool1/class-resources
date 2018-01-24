@@ -1,0 +1,29 @@
+
+paired programming
+-- Project Set Up --
+
+Please read through the following instructions carefully!
+
+* TM1 = "Team Member 1"
+* TM2 = "Team Member 2"
+* BTM = "Both Team Members"
+
+1) *TM1 creates a Github organization called tm1Name-tm2Name
+2) TM1 adds *TM2 to organization and gives them full privileges
+3) TM1 creates a new folder in the ideaProjects folder called codeup-design
+4) TM1 initiallizes a local Git repo in this folder and opens the folder with IntelliJ
+5) TM1 adds an empty .gitignore file
+6) TM1 adds and commits this change to Git
+7) TM1 goes back to the organization page on GitHub and adds a new repo called codeup-design
+:sunglasses: TM1 copies the commands to push an existing repo to GitHub and pastes into command line
+9) TM1 should now have successfully pushed up the first commit to the organization's repo
+10) TM2 navigates to the their organization's codeup-design repo
+11) TM2 clicks the green button to clone the repo and selects the SSH option
+12) TM2 navigates in the command line to their ideaProjects folder
+13) TM2 types the command...
+
+        git clone pasteWhatWasCopiedFromGitHubHere
+
+14) TM2 opens up the codeup-design project in IntelliJ
+15) TM2 adds the html file codeup-design.html
+16) TM2 adds and commits this change to Git and pushes the change up to GitHub

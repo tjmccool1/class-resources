@@ -1,0 +1,49 @@
+
+Scenario: Marketing says we need to change the name on media_queries.html to "Veridian Dynamics"
+
+in terminal:
+1. cd into your project directory
+
+2. (prerequisite make sure everything is already committed)
+
+3. make a new branch and check out that branch
+
+Two ways (pick one)
+1. "git checkout -b new-branch-name"
+2. "git branch new-branch-name" make a new local branch off of your current branch, but you're still checked out in your original branch.
+
+"git checkout new-branch-name" will check you out into the new-branch-name. 
+
+4. Create files or edit files, do the work to fix the bug or create that feature.
+
+5. do "git status" to show modified or untracked files.
+
+    Add files for staging (git add filename)
+    "git add filename1.html"
+    "git add css/styles.css"
+    "git add ."
+
+btw: "git diff master" will show the differences between your current branch and your local master.
+
+6. Commit your work with a clear and useful commit message
+git commit -m "changed header text for company name"
+
+7. Push your new branch to github.
+"git push origin new-branch-name"
+
+8. Navigate to github.com to your repo and create a pull request
+    - goto your repo
+    - click on "Pull Request"
+    - make a new pull request
+    - Keep "base" to master
+    - Set "compare" to new-branch-name
+
+9. Get your peer to review your code.
+
+10. Peer will click "Merge pull request" and now the master branch has your new work!
+
+10.5 We need to get your own master branch up to date!
+
+11. git checkout master
+
+12. "git pull origin master"

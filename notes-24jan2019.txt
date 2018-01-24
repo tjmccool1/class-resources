@@ -1,0 +1,139 @@
+notes 24jan2019
+java script 1
+
+==================primitive types ==================
+
+99.9 ---- number
+"false" -----string
+false --- boolean
+"0" ----- string
+0 -----number
+true --- boolean
+"true" ----- string
+
+a term or phrase typed into a search box? == string
+if a user is logged in? == boolean
+a discount ammount to apply to a users shopping carg? == number
+whether or not a coupon code in valid? === boolean
+an email address typed into a regiatration form? == string
+the price of a product? ==== number
+
+
+typeof is a special operator that will produce a string \n
+that contains the type of the operand it is used on
+
+===================operatators =================
+arithmetic
+------------------
+(+) addition / concatenate(put two strings together)
+(-) subtraction
+(*) multiplication
+(/) diviaion
+(%) modulus = remainder after division
+/n
+logical boolean (true / false) not ("true" / "false")
+/n
+-------------------
+(&&) = AND - true && true = true/ * && false = false
+(||) = OR  - true || * = true / false || false = false
+(!)  = NOT - oposite of 
+/n
+/n
+comparison (true or fales)
+-------------
+(==) - equal in value
+(===) - equal in type and value (strict)
+(!=)  - Not equal in value
+(!==) - Not equal in type and value (strict)
+(>) - greater than
+(>=) - greater than or equal to 
+(<) - less than
+(<=) - less than or equal to
+/n
+/n
+/n
+exercise--------------------
+'1' + 2 =  12 (concatination)
+typeof '1' + 2 = string2 (concatination)
+6 % 4 = (6/4 remainder) = 2
+'3 + 4 is ' + 3 + 4 // how could you make this produce the correct output? 
+--------add parenthese to force mathmatical operation-----(concatination and math)
+---------'3 + 4 is ' + (3+4) -----output is "3 + 4 is 7" 
+0 < 0 = false
+'false' == false = false
+true == 'true' = true
+5 >= -5 = true
+!false || false = true
+true || "42" = true
+!true && !false = false
+6 % 5 = 1
+5 < 4 && 1 === 1 = true
+typeof 'codeup' === 'string' = true
+'codeup' === 'codeup' && 'codeup' === 'Codeup' =false
+4 >= 0 && 1 !== '1' =true
+6 % 3 === 0 =true
+5 % 2 !== 0 =false
+/n
+/n
+Variables
+---------------------
+var  ==  means varible /a single equal sign is needed to assign the varible a value /also we should write varibles in camelCase / multiple varibles can be assigned using a (,) 
+/n
+/n
+Constants
+-----------------
+const == means constants/ constants cannot(should not) be reassigned.;
+			(Technically this statement is false. All the const keyword does is prevent re-assignment, and the values can change by calling methods on objects, but we have not yet introduced this concept)
+/n
+/n
+-----------Exercise
+var n = 10 - 2 * 8 + 16 / 2;
+n = (10 - (2 * 8)) + (16 / 2);
+n = 2
+-------------------
+var x = 5;
+var y = x + 3;
+y =  8
+--------------------
+var x = 5;
+x = 5;
+x = 8;- reassingned
+x = 8
+---------------------
+var x = 5;
+x = x + 3;
+x = 8
+------------------------
+------------------------
+========================
+Shorthand Assignment Operators
+-----------------------
+Operators |  Shorthand  |  Example  |
+    +=	 |	x += 2;	  |	x = x + 2;  |
+    -=	 |	x -= 2;	  |	x = x - 2;  |
+    *=	 |	x *= 2;	  |	x = x * 2;  |
+    /=	 |	x /= 2;	  |	x = x / 2;  |
+    %=	 |	x %= 2;	  |	x = x % 2;  |
+-------------------------------------
+Unary Operators
+------------------
+Operator	Name
+	+		Plus
+	-		Negation
+	++		Increment
+	--		Decrement
+--------------------------
+==========================
+convert numder to string
+toString 
+toFixed
+-----------------
+convert string to number
+Number
+parseInt - attempts to convert a string to a integer value
+parseFloat
+
+
+
+
+

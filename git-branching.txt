@@ -1,4 +1,4 @@
-GIT BRANCHING
+toGIT BRANCHING
 
 Everything we have done is on the "master branch" in Git
 

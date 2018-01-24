@@ -1,0 +1,29 @@
+================================ PEER INTERVIEW WARM UP
+    
+Group up into teams of two/three/ or the your whole table 
+and take turns answering the following questions...
+
+- Describe the difference between a block-level and inline element.
+- What is a void element?
+- What is CSS? What is it used for? What does "Cascading" refer to?
+- Describe briefly at least three ways of targeting
+ an element that would override the next in increasing specificity.
+- What is the preferred method for including CSS in an HTML page? embedded/inline/external?
+- Describe the differences between static, fixed, absolute, and relative positioning.
+
+- Is the following syntax correct for targeting
+ all possible paragraph elements inside all section elements?
+
+    section>p {
+
+        color: blue;
+
+    }
+
+- What are floats used for in CSS?
+- What is a pseudo class? Give two examples.
+- What will the following color approximately look like? #a0a 
+- What is the Box Model?
+- Describe briefly how to construct a grid system and its purpose.
+- What does "mobile-first" mean?
+- What are media queries and how are they used?
