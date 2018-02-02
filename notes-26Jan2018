@@ -1,0 +1,14 @@
+notes-26Jan2018
+
+http://java.codeup.com/javascript-i/functions/
+
+must have () to run a function
+
+function nameOfFunction (input) {
+	-body of function- 
+	what to do;
+	return output;
+}
+
+
+

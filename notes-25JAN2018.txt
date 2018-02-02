@@ -1,0 +1,11 @@
+notes 25JAN2018
+========terms===========
+IIFE - Immediately-Invoked Function Expression 
+
+.length: - property that describes the number of characters in the string.
+.indexOf(char): - returns the index of the specified character in the string.
+.replace(find, replace): - returns a copy of the string after performing a substitution.
+.substring(fromIndex, toIndex): - returns a subset of the original string based on the provided indices.
+.toUpperCase(): - returns a copy of the string in all upper case.
+.toLowerCase(): - returns a copy of the string in all lower case.
+.trim():  - returns a copy of the string with whitespace at the beginning and end removed.

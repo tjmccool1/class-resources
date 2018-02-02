@@ -1,0 +1,91 @@
+
+
+notes 30Jan2018
+=============
+while loop
+----------
+while() {
+	
+}
+================
+do while loop will execute at least once.
+-------------
+var whatever;
+do {
+	check variable
+} while ();
+
+===============
+for loop
+----------------
+var i
+for(initialization; condition(test); incrementer){
+	what to do/body
+}
+
+example:
+for (var i = 0; i <= 10, i += 1) {
+	console.log(i);
+}
+nested example;
+for (var i = 0; i <= 10, i += 1) {
+	for (var j = 0; j <=10; j += 1){
+	console.log(i + j);
+	}
+}
+
+or ------------------
+
+for (var i = 0, j = 9; i < 10; i++, j--) {
+    console.log('for loop iteration #' + i + ', j = ' + j);
+}
+====================
+break and continue
+--------------------
+break example;
+var password;
+while (true){
+		password = prompt("please enter a valid password");
+	if (pasword === "123");
+	break;
+}
+console.log('access granted');
+
+continue example;
+var y =0;
+while(true) {
+	y++;
+	if (y === 100) {
+	console.log ("end of loop");
+	break
+	}
+	if 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
